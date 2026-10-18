@@ -64,7 +64,7 @@ python tools/emblem.py
 
 The raster files (`favicon.ico`, `apple-touch-icon.png`, `icon-*.png`, `og.jpg`)
 were rendered from those SVGs with a headless browser and Pillow. If the emblem
-changes, re-render them from `assets/img/favicon.svg` and the seal.
+changes, re-render them from `favicon.svg` and `assets/img/seal.svg`.
 
 ## Deployment
 
