@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seraphicorder.com/sitemap.xml
