@@ -104,7 +104,7 @@ for a, b in (('stroke-width="0.38"','stroke-width="1"'), ('stroke-width="0.4"','
              ('stroke-width="1"/>','stroke-width="1.8"/>')):
     fav_inner = fav_inner.replace(a, b)
 fav = f'<circle cx="100" cy="100" r="100" fill="#0e0b09"/>{fav_inner}'
-with open(os.path.join(OUT, 'favicon.svg'), 'w', encoding='utf-8') as fh:
+with open(os.path.join(ROOT, 'favicon.svg'), 'w', encoding='utf-8') as fh:  # served from the site root
     fh.write(svg(fav, extra=' color="#d4b36f"'))
 
 
