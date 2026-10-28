@@ -835,6 +835,7 @@ img, svg { display: block; max-width: 100%; }
   .page-document .brand__name { display: none; }
   .page-document .site-nav ol { gap: 1rem; }
   .page-document .site-nav a { letter-spacing: 0.18em; font-size: 0.68rem; }
+  .page-document .site-nav__extra { display: none; }
 }
 
 .document {
